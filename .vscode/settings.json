@@ -1,0 +1,6 @@
+{
+    "chat.agent.enabled": false,
+    "workbench.commandPalette.showAskInChat": false,
+    "workbench.browser.enableChatTools": false,
+    "chat.checkpoints.enabled": false
+}
