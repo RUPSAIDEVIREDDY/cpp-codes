@@ -5,18 +5,14 @@ int main()
     int n;
     cin>>n;
     int arr[n];
-    int xor1=0;
-    int xor2=0;
+    int actualsum=0;
     for(int i=0;i<n;i++)
     {
         cin>>arr[i];
-        xor2=xor2^arr[i];
+        actualsum+=arr[i];
     }
-    for(int i=0;i<=n;i++)
-    {
-        xor1=xor1^i;
-    }
-    int missing=xor1^xor2;
+    int expectedsum = n*(n+1)/2;
+    int missing = expectedsum-actualsum;
     cout<<missing;
     return 0;
 }
