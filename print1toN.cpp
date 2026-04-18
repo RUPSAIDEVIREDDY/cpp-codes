@@ -2,8 +2,11 @@
 using namespace std;
 int main()
 {
-    string n;
+    int n;
     cin>>n;
-    cout<<n.length();
+    for(int i=1;i<=n;i++)
+    {
+        cout<<i<<" ";
+    }
     return 0;
 }

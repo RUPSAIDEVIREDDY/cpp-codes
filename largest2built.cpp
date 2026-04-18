@@ -1,9 +1,10 @@
 #include<iostream>
+#include<algorithm>
 using namespace std;
 int main()
 {
-    string n;
-    cin>>n;
-    cout<<n.length();
+    int a,b;
+    cin>>a>>b;
+    cout<<max(a,b);
     return 0;
 }
