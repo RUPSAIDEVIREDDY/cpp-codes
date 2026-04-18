@@ -1,14 +1,13 @@
 #include<iostream>
 using namespace std;
-int findmax(int a,int b)
+int add(int x,int y)
 {
-    if(a>b) return a;
-    else return b;  
+    return x+y;
 }
 int main()
 {
     int a,b;
     cin>>a>>b;
-    cout<<findmax(a,b);
+    cout<<add(a,b);
     return 0;
 }
