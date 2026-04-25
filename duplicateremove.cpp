@@ -7,7 +7,7 @@ int main()
     for(int i=0;i<s.length();i++)
     {
        bool found=false;
-       for(int j=0;j<s.length();j++)
+       for(int j=0;j<result.length();j++)
        {
         if(result[j]==s[i])
         {
