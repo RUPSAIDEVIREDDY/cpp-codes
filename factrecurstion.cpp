@@ -1,19 +1,16 @@
 #include<iostream>
 using namespace std;
-int fib(int n)
+int factorial(int n)
 {
-    if(n==0)
-    return 0;
     if(n==1)
     return 1;
-    else
-    return fib(n-1)+fib(n-2);
+    return n*factorial(n-1);
 }
 int main()
 {
     int n;
     cin>>n;
-    int sum=fib(n);
-    cout<<sum;
+    int result=factorial(n);
+    cout<<result;
     return 0;
 }
